@@ -1317,9 +1317,29 @@
 		vrLen = 276;
 		vrLoc = 0;
 	};
+	0AA3A692172EB2DE00965927 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* morpAppDelegate.m */;
+		name = "morpAppDelegate.m: 32";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 3;
+	};
+	0AA3A693172EB2DE00965927 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
+		name = "morpAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
 	256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 407}}";
 			sepNavSelRange = "{196, 0}";
 			sepNavVisRange = "{0, 276}";
 			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
@@ -1329,7 +1349,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1062, 1183}}";
 			sepNavSelRange = "{911, 0}";
-			sepNavVisRange = "{3, 1124}";
+			sepNavVisRange = "{3, 974}";
 		};
 	};
 	256AC3F00F4B6AF500CF3369 /* morp_Prefix.pch */ = {
@@ -1340,7 +1360,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeArchitecturePreference = x86_64;
+		activeArchitecturePreference = i386;
 		activeBuildConfigurationName = Release;
 		activeExecutable = 0AA3A496172DA64100965927 /* morp */;
 		activeSDKPreference = macosx10.5;
@@ -1524,6 +1544,8 @@
 			0AA3A687172EB15200965927 /* PBXTextBookmark */ = 0AA3A687172EB15200965927 /* PBXTextBookmark */;
 			0AA3A68C172EB18700965927 /* PBXTextBookmark */ = 0AA3A68C172EB18700965927 /* PBXTextBookmark */;
 			0AA3A68D172EB18700965927 /* PBXTextBookmark */ = 0AA3A68D172EB18700965927 /* PBXTextBookmark */;
+			0AA3A692172EB2DE00965927 /* PBXTextBookmark */ = 0AA3A692172EB2DE00965927 /* PBXTextBookmark */;
+			0AA3A693172EB2DE00965927 /* PBXTextBookmark */ = 0AA3A693172EB2DE00965927 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 0AA3A4A4172DA66500965927 /* Source Control */;
 		userBuildSettings = {
