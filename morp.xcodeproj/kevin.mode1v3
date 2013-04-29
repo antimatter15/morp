@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>0AA3A66F172E008800965927</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>morpAppDelegate.h</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>0AA3A670172E008800965927</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>morpAppDelegate.h</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>0AA3A680172E011700965927</string>
+						<key>history</key>
+						<array>
+							<string>0AA3A668172E002300965927</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {750, 461}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>15 239 750 502 0 0 1024 746 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -275,7 +316,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -299,7 +339,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-97 56 1024 687 0 0 1024 746 </string>
+						<string>3 59 1024 687 0 0 1024 746 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -329,15 +369,15 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>0AA3A654172DFCCB00965927</string>
+										<string>0AA3A67F172E011700965927</string>
 										<key>history</key>
 										<array>
 											<string>0AA3A4E9172DACA100965927</string>
 											<string>0AA3A55A172DB86600965927</string>
 											<string>0AA3A57E172DBCBD00965927</string>
-											<string>0AA3A57F172DBCBD00965927</string>
-											<string>0AA3A62C172DEE9300965927</string>
-											<string>0AA3A62D172DEE9300965927</string>
+											<string>0AA3A66C172E008800965927</string>
+											<string>0AA3A675172E00A600965927</string>
+											<string>0AA3A66B172E008800965927</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -351,7 +391,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {816, 460}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-97 56 1024 687 0 0 1024 746 </string>
+								<string>3 59 1024 687 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -371,7 +411,7 @@
 								<key>Frame</key>
 								<string>{{0, 465}, {816, 181}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-97 56 1024 687 0 0 1024 746 </string>
+								<string>3 59 1024 687 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -535,16 +575,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>0AA3A655172DFCCB00965927</string>
 		<string>0AA3A4BA172DA74600965927</string>
 		<string>0AA3A4BB172DA74600965927</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>0AA3A4B1172DA74600965927</string>
+		<string>0AA3A66F172E008800965927</string>
 		<string>/Users/kevin/Desktop/morp/morp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-97 56 1024 687 0 0 1024 746 </string>
+	<string>3 59 1024 687 0 0 1024 746 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -565,7 +605,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>morpAppDelegate.m</string>
+								<string>morpAppDelegate.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -636,7 +676,7 @@
 			<key>WindowToolGUID</key>
 			<string>0AA3A4B1172DA74600965927</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

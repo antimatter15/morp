@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface morpAppDelegate : NSObject <NSApplicationDelegate> {
+@interface morpAppDelegate : NSObject  {
     NSWindow *window;
 }
 

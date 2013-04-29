@@ -14,7 +14,7 @@
 @synthesize window;
 
 - (void)displayPicture:(id) sender {
-	NSLog(@"pooper scoop");
+	//NSLog(@"pooper scoop");
 	// so we have to disable the screensaver if it's up
 	// and since i have no idea what else you can do, lets defer
 	// to the painfully obvious and read an appropriate xkcd
@@ -44,13 +44,14 @@
 }
 
 
-
+- (void) mouseDown:(NSEvent *) theEvent {
+	[window orderOut:self];
+}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application 
-	//int width = [[NSScreen mainScreen] frame].size.width;
-	//int height = [[NSScreen mainScreen] frame].size.height;
-	//[window setFrame:NSMakeRect(0, 0, width, height) display:YES];
+	//[[NSHost currentHost] localizedName];
+	
 	NSRect mainDisplayRect = [[NSScreen mainScreen] frame];
 	//[window setContentSize:mainDisplayRect.size];
 	[window setStyleMask:NSBorderlessWindowMask];
@@ -60,7 +61,7 @@
 	//[window setFrameTopLeftPoint:NSMakePoint(0, 0)];
 	[window setOpaque:YES];
 	[window setHidesOnDeactivate:NO];
-	NSLog(@"magical blah");
+	//NSLog(@"magical blah");
 	[self performSelector:@selector(displayPicture:) withObject: nil afterDelay:3.0];
 //	[NSTimer scheduledTimerWithTimeInterval:0.5f target:self selector:@selector(displayPicture:) userInfo:nil repeats:NO];
 	//[window makeKeyAndOrderFront:self];
