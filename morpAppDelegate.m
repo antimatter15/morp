@@ -29,7 +29,7 @@
 	CGEventPost(kCGHIDEventTap, event);
 	CFRelease(event);
 	
-	UpdateSystemActivity(OverallAct);
+	//UpdateSystemActivity(OverallAct);
 	//IOPMAssertionID assertionID;
 	//IOReturn success = IOPMAssertionCreate(kIOPMAssertionTypeNoDisplaySleep, kIOPMAssertionLevelOn, &assertionID);
 	//if(success == kIOReturnSuccess){

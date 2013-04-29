@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>0AA3A680172E011700965927</string>
+						<string>0AA3A68D172EB18700965927</string>
 						<key>history</key>
 						<array>
 							<string>0AA3A668172E002300965927</string>
@@ -369,7 +369,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>0AA3A67F172E011700965927</string>
+										<string>0AA3A68C172EB18700965927</string>
 										<key>history</key>
 										<array>
 											<string>0AA3A4E9172DACA100965927</string>
@@ -605,7 +605,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>morpAppDelegate.h</string>
+								<string>morpAppDelegate.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -676,7 +676,7 @@
 			<key>WindowToolGUID</key>
 			<string>0AA3A4B1172DA74600965927</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
