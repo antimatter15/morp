@@ -1,442 +1,0 @@
-Tmorp
-v7
-r0
-t388889585.243771
-cCheck dependencies
-cProcessInfoPlistFile /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Info.plist morp-Info.plist
-cCopyStringsFile /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/kevin/Desktop/morp/English.lproj/MainMenu.xib
-cCpResource build/Debug/morp.app/Contents/Resources/dog.jpg dog.jpg
-cProcessPCH /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-fupmjufxbgwxfxfdrlhducggnfed/morp_Prefix.pch.gch morp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/morp.build/Debug/morp.build/Objects-normal/i386/main.o /Users/kevin/Desktop/morp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/morp.build/Debug/morp.build/Objects-normal/i386/morpAppDelegate.o /Users/kevin/Desktop/morp/morpAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp normal i386
-cTouch /Users/kevin/Desktop/morp/build/Debug/morp.app
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004A769DAB00000000000000EE
-t1249287595
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004A600B8400000000000013E6
-t1247808388
-s5094
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/pwr_mgt/IOPMLib.h
-c000000004A4D52080000000000006CA0
-t1246581256
-s27808
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/System/Library/Frameworks/Security.framework/Security
-c000000004AD837D90000000000A0FD10
-t1255684057
-s10550544
-
-N/Users/kevin/Desktop/morp/English.lproj/InfoPlist.strings
-c00000000517D6EC1000000000000002D
-t1367174849
-s45
-
-N/Users/kevin/Desktop/morp/English.lproj/MainMenu.xib
-c00000000517D83AC000000000002CAA8
-t1367180204
-s182952
-
-N/Users/kevin/Desktop/morp/Firebase.framework/Firebase
-c00000000516B80BE0000000000750E60
-t1365999806
-s7671392
-
-N/Users/kevin/Desktop/morp/Firebase.framework/Headers/FDataSnapshot.h
-c00000000516B80BD0000000000001201
-t1365999805
-s4609
-i<Foundation/Foundation.h>
-
-N/Users/kevin/Desktop/morp/Firebase.framework/Headers/FEventType.h
-c00000000516B80BD00000000000007E0
-t1365999805
-s2016
-
-N/Users/kevin/Desktop/morp/Firebase.framework/Headers/FMutableData.h
-c00000000516B80BD0000000000001276
-t1365999805
-s4726
-i<Foundation/Foundation.h>
-
-N/Users/kevin/Desktop/morp/Firebase.framework/Headers/FQuery.h
-c00000000516B80BD0000000000002D6B
-t1365999805
-s11627
-i<Foundation/Foundation.h>
-i"FEventType.h"
-i"FDataSnapshot.h"
-
-N/Users/kevin/Desktop/morp/Firebase.framework/Headers/FTransactionResult.h
-c00000000516B80BD0000000000000835
-t1365999805
-s2101
-i<Foundation/Foundation.h>
-i"FMutableData.h"
-
-N/Users/kevin/Desktop/morp/Firebase.framework/Headers/Firebase.h
-c00000000516B80BD0000000000007226
-t1365999805
-s29222
-i<Foundation/Foundation.h>
-i"FQuery.h"
-i"FDataSnapshot.h"
-i"FMutableData.h"
-i"FTransactionResult.h"
-
-N/Users/kevin/Desktop/morp/build/Debug/morp.app
-t1367195715
-s102
-
-N/Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Info.plist
-t1367180348
-s910
-
-N/Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp
-t1367195715
-s18820
-
-N/Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/PkgInfo
-t1367180348
-s8
-
-N/Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1367177859
-s92
-
-N/Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/English.lproj/MainMenu.nib
-t1367180209
-s35251
-
-N/Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/dog.jpg
-t1367177862
-s273208
-
-N/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/i386/main.o
-t1367189401
-s4828
-
-N/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/i386/morp.LinkFileList
-c00000000517D7A8200000000000000B9
-t1367177858
-s185
-
-N/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/i386/morpAppDelegate.o
-t1367195714
-s20472
-
-N/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/ppc/main.o
-t1367175422
-s4964
-
-N/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/ppc/morp.LinkFileList
-c00000000517D70F700000000000000B7
-t1367175415
-s183
-
-N/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/ppc/morpAppDelegate.o
-t1367175460
-s15732
-
-N/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/x86_64/main.o
-t1367175478
-s4960
-
-N/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/x86_64/morp.LinkFileList
-c00000000517D713000000000000000BD
-t1367175472
-s189
-
-N/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/x86_64/morpAppDelegate.o
-t1367175479
-s21396
-
-N/Users/kevin/Desktop/morp/dog.jpg
-c00000000517D62620000000000042B38
-t1367171682
-s273208
-
-N/Users/kevin/Desktop/morp/main.m
-c00000000517D814400000000000000F5
-t1367179588
-s245
-i<Cocoa/Cocoa.h>
-
-N/Users/kevin/Desktop/morp/morpAppDelegate.h
-c00000000517D6EC1000000000000012B
-t1367174849
-s299
-i<Cocoa/Cocoa.h>
-
-N/Users/kevin/Desktop/morp/morpAppDelegate.m
-c00000000517DC0310000000000000C90
-t1367195697
-s3216
-i"morpAppDelegate.h"
-i<IOKit/pwr_mgt/IOPMLib.h>
-
-N/Users/kevin/Desktop/morp/morp_Prefix.pch
-c00000000517D6EC1000000000000008B
-t1367174849
-s139
-i<Cocoa/Cocoa.h>
-
-N/usr/lib/libicucore.dylib
-c000000004AD836E900000000005EC870
-t1255683817
-s6211696
-
-N/var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-asxoagqsmtsypcfuwzmggqxjbucu/morp_Prefix.pch.gch
-t1367177870
-s38311916
-
-N/var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-bftxqgwxlrudkmgoxtlnhxpuaqkq/morp_Prefix.pch.gch
-t1367175476
-s36497360
-
-N/var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-chtrztdroeodbnasqpaflyvdieyf/morp_Prefix.pch.gch
-t1367175421
-s36230952
-
-N/var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-fupmjufxbgwxfxfdrlhducggnfed/morp_Prefix.pch.gch
-t1367189399
-s38311916
-
-Nmorp-Info.plist
-c00000000517D843B000000000000040B
-t1367180347
-s1035
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies388889585#388889585#0(0"0(0#1#0"546928#0"0#
-
-CCompileC build/morp.build/Debug/morp.build/Objects-normal/i386/main.o /Users/kevin/Desktop/morp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s388882199.596727
-e388882201.296098
-r1
-xCompileC
-xbuild/morp.build/Debug/morp.build/Objects-normal/i386/main.o
-x/Users/kevin/Desktop/morp/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@40"Compile /Users/kevin/Desktop/morp/main.m388882199#388882201#0(0"0(0#0#32"/Users/kevin/Desktop/morp/main.m546928#1269"    cd /Users/kevin/Desktop/morp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-generated-files.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-own-target-headers.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-all-target-headers.hmap -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-project-headers.hmap -F/Users/kevin/Desktop/morp/build/Debug -F/Users/kevin/Desktop/morp -I/Users/kevin/Desktop/morp/build/Debug/include -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources/i386 -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources -include /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-fupmjufxbgwxfxfdrlhducggnfed/morp_Prefix.pch -c /Users/kevin/Desktop/morp/main.m -o /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/i386/main.o0#
-
-CCompileC build/morp.build/Debug/morp.build/Objects-normal/i386/morpAppDelegate.o /Users/kevin/Desktop/morp/morpAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s388888503.205359
-e388888514.431124
-r1
-xCompileC
-xbuild/morp.build/Debug/morp.build/Objects-normal/i386/morpAppDelegate.o
-x/Users/kevin/Desktop/morp/morpAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /Users/kevin/Desktop/morp/morpAppDelegate.m388888503#388888514#0(0"0(0#0#43"/Users/kevin/Desktop/morp/morpAppDelegate.m546928#1291"    cd /Users/kevin/Desktop/morp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-generated-files.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-own-target-headers.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-all-target-headers.hmap -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-project-headers.hmap -F/Users/kevin/Desktop/morp/build/Debug -F/Users/kevin/Desktop/morp -I/Users/kevin/Desktop/morp/build/Debug/include -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources/i386 -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources -include /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-fupmjufxbgwxfxfdrlhducggnfed/morp_Prefix.pch -c /Users/kevin/Desktop/morp/morpAppDelegate.m -o /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/i386/morpAppDelegate.o0#
-
-CCompileC build/morp.build/Debug/morp.build/Objects-normal/ppc/main.o /Users/kevin/Desktop/morp/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s388868221.534011
-e388868222.798680
-r1
-xCompileC
-xbuild/morp.build/Debug/morp.build/Objects-normal/ppc/main.o
-x/Users/kevin/Desktop/morp/main.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@40"Compile /Users/kevin/Desktop/morp/main.m388868221#388868222#0(0"0(0#0#32"/Users/kevin/Desktop/morp/main.m24720568#1235"    cd /Users/kevin/Desktop/morp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-generated-files.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-own-target-headers.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-all-target-headers.hmap -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-project-headers.hmap -F/Users/kevin/Desktop/morp/build/Debug -I/Users/kevin/Desktop/morp/build/Debug/include -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources/ppc -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources -include /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-chtrztdroeodbnasqpaflyvdieyf/morp_Prefix.pch -c /Users/kevin/Desktop/morp/main.m -o /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/ppc/main.o0#
-
-CCompileC build/morp.build/Debug/morp.build/Objects-normal/ppc/morpAppDelegate.o /Users/kevin/Desktop/morp/morpAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s388868255.842483
-e388868260.276095
-r1
-xCompileC
-xbuild/morp.build/Debug/morp.build/Objects-normal/ppc/morpAppDelegate.o
-x/Users/kevin/Desktop/morp/morpAppDelegate.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/kevin/Desktop/morp/morpAppDelegate.m: In function '-[morpAppDelegate applicationDidFinishLaunching:]':
-o/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: 'NSWindow' may not respond to '-toggleFullScreen:'
-o/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: (Messages without a matching method signature
-o/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: will be assumed to return 'id' and accept
-o/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: '...' as arguments.)
-lSLF07#2@51"Compile /Users/kevin/Desktop/morp/morpAppDelegate.m388868255#388868260#0(498"/Users/kevin/Desktop/morp/morpAppDelegate.m: In function '-[morpAppDelegate applicationDidFinishLaunching:]':/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: 'NSWindow' may not respond to '-toggleFullScreen:'/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: (Messages without a matching method signature/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: will be assumed to return 'id' and accept/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: '...' as arguments.)2(22@50"'NSWindow' may not respond to '-toggleFullScreen:'388868258#110#108#0(6@43"/Users/kevin/Desktop/morp/morpAppDelegate.m388868255#17#0#17#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)388868258#218#103#0(6@43"/Users/kevin/Desktop/morp/morpAppDelegate.m388868255#17#0#17#0#0"0(0#0#43"/Users/kevin/Desktop/morp/morpAppDelegate.m546928#1257"    cd /Users/kevin/Desktop/morp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-generated-files.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-own-target-headers.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-all-target-headers.hmap -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-project-headers.hmap -F/Users/kevin/Desktop/morp/build/Debug -I/Users/kevin/Desktop/morp/build/Debug/include -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources/ppc -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources -include /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-chtrztdroeodbnasqpaflyvdieyf/morp_Prefix.pch -c /Users/kevin/Desktop/morp/morpAppDelegate.m -o /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/ppc/morpAppDelegate.o0#
-
-CCompileC build/morp.build/Debug/morp.build/Objects-normal/x86_64/main.o /Users/kevin/Desktop/morp/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s388868276.702765
-e388868278.360953
-r1
-xCompileC
-xbuild/morp.build/Debug/morp.build/Objects-normal/x86_64/main.o
-x/Users/kevin/Desktop/morp/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@40"Compile /Users/kevin/Desktop/morp/main.m388868276#388868278#0(0"0(0#0#32"/Users/kevin/Desktop/morp/main.m546928#1247"    cd /Users/kevin/Desktop/morp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-generated-files.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-own-target-headers.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-all-target-headers.hmap -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-project-headers.hmap -F/Users/kevin/Desktop/morp/build/Debug -I/Users/kevin/Desktop/morp/build/Debug/include -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources/x86_64 -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources -include /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-bftxqgwxlrudkmgoxtlnhxpuaqkq/morp_Prefix.pch -c /Users/kevin/Desktop/morp/main.m -o /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/x86_64/main.o0#
-
-CCompileC build/morp.build/Debug/morp.build/Objects-normal/x86_64/morpAppDelegate.o /Users/kevin/Desktop/morp/morpAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s388868278.361384
-e388868279.542891
-r1
-xCompileC
-xbuild/morp.build/Debug/morp.build/Objects-normal/x86_64/morpAppDelegate.o
-x/Users/kevin/Desktop/morp/morpAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/kevin/Desktop/morp/morpAppDelegate.m: In function '-[morpAppDelegate applicationDidFinishLaunching:]':
-o/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: 'NSWindow' may not respond to '-toggleFullScreen:'
-o/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: (Messages without a matching method signature
-o/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: will be assumed to return 'id' and accept
-o/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: '...' as arguments.)
-lSLF07#2@51"Compile /Users/kevin/Desktop/morp/morpAppDelegate.m388868278#388868279#0(498"/Users/kevin/Desktop/morp/morpAppDelegate.m: In function '-[morpAppDelegate applicationDidFinishLaunching:]':/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: 'NSWindow' may not respond to '-toggleFullScreen:'/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: (Messages without a matching method signature/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: will be assumed to return 'id' and accept/Users/kevin/Desktop/morp/morpAppDelegate.m:17: warning: '...' as arguments.)2(22@50"'NSWindow' may not respond to '-toggleFullScreen:'388868278#110#108#0(6@43"/Users/kevin/Desktop/morp/morpAppDelegate.m388868255#17#0#17#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)388868278#218#103#0(6@43"/Users/kevin/Desktop/morp/morpAppDelegate.m388868255#17#0#17#0#0"0(0#0#43"/Users/kevin/Desktop/morp/morpAppDelegate.m546928#1269"    cd /Users/kevin/Desktop/morp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-generated-files.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-own-target-headers.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-all-target-headers.hmap -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-project-headers.hmap -F/Users/kevin/Desktop/morp/build/Debug -I/Users/kevin/Desktop/morp/build/Debug/include -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources/x86_64 -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources -include /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-bftxqgwxlrudkmgoxtlnhxpuaqkq/morp_Prefix.pch -c /Users/kevin/Desktop/morp/morpAppDelegate.m -o /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/x86_64/morpAppDelegate.o0#
-
-CCompileXIB /Users/kevin/Desktop/morp/English.lproj/MainMenu.xib
-s388873007.089016
-e388873009.825106
-r1
-xCompileXIB
-x/Users/kevin/Desktop/morp/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib388873007#388873009#0(0"0(0#0#52"/Users/kevin/Desktop/morp/English.lproj/MainMenu.xib546928#285"    cd /Users/kevin/Desktop/morp    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/English.lproj/MainMenu.nib /Users/kevin/Desktop/morp/English.lproj/MainMenu.xib0#
-
-CCopyStringsFile /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s388870659.029845
-e388870659.555977
-r1
-xCopyStringsFile
-x/Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings388870659#388870659#0(0"0(0#0#57"/Users/kevin/Desktop/morp/English.lproj/InfoPlist.strings546928#336"    cd /Users/kevin/Desktop/morp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/English.lproj0#
-
-CCpResource build/Debug/morp.app/Contents/Resources/dog.jpg dog.jpg
-s388870662.628102
-e388870662.752428
-r1
-xCpResource
-xbuild/Debug/morp.app/Contents/Resources/dog.jpg
-xdog.jpg
-lSLF07#2@12"Copy dog.jpg388870662#388870662#0(0"0(0#0#33"/Users/kevin/Desktop/morp/dog.jpg546928#281"    cd /Users/kevin/Desktop/morp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/kevin/Desktop/morp/dog.jpg /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources0#
-
-CLd /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp normal i386
-s388888514.431913
-e388888515.340836
-r1
-xLd
-x/Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp
-xnormal
-xi386
-lSLF07#2@71"Link /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp388888514#388888515#0(0"0(0#0#0"546928#492"    cd /Users/kevin/Desktop/morp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/kevin/Desktop/morp/build/Debug -F/Users/kevin/Desktop/morp/build/Debug -F/Users/kevin/Desktop/morp -filelist /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/i386/morp.LinkFileList -mmacosx-version-min=10.6 -ObjC -framework Cocoa -o /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp0#
-
-CLd /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp normal ppc
-s388868260.276589
-e388868261.020301
-r1
-xLd
-x/Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp
-xnormal
-xppc
-lSLF07#2@71"Link /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp388868260#388868261#0(0"0(0#0#0"546928#456"    cd /Users/kevin/Desktop/morp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/kevin/Desktop/morp/build/Debug -F/Users/kevin/Desktop/morp/build/Debug -filelist /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/ppc/morp.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp0#
-
-CLd /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp normal x86_64
-s388868279.542976
-e388868279.872168
-r1
-xLd
-x/Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp
-xnormal
-xx86_64
-lSLF07#2@71"Link /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp388868279#388868279#0(0"0(0#0#0"546928#462"    cd /Users/kevin/Desktop/morp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/kevin/Desktop/morp/build/Debug -F/Users/kevin/Desktop/morp/build/Debug -filelist /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/x86_64/morp.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp0#
-
-CProcessInfoPlistFile /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Info.plist morp-Info.plist
-s388873148.433617
-e388873148.445697
-r1
-xProcessInfoPlistFile
-x/Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Info.plist
-xmorp-Info.plist
-lSLF07#2@23"Process morp-Info.plist388873148#388873148#0(0"0(0#0#41"/Users/kevin/Desktop/morp/morp-Info.plist546928#262"    cd /Users/kevin/Desktop/morp    builtin-infoPlistUtility morp-Info.plist -genpkginfo /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-asxoagqsmtsypcfuwzmggqxjbucu/morp_Prefix.pch.gch morp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s388870662.752676
-e388870670.498862
-r1
-xProcessPCH
-x/var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-asxoagqsmtsypcfuwzmggqxjbucu/morp_Prefix.pch.gch
-xmorp_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile morp_Prefix.pch388870662#388870670#0(0"0(0#0#41"/Users/kevin/Desktop/morp/morp_Prefix.pch546928#1165"    cd /Users/kevin/Desktop/morp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-generated-files.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-own-target-headers.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-all-target-headers.hmap -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-project-headers.hmap -F/Users/kevin/Desktop/morp/build/Debug -I/Users/kevin/Desktop/morp/build/Debug/include -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources/i386 -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources -c /Users/kevin/Desktop/morp/morp_Prefix.pch -o /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-asxoagqsmtsypcfuwzmggqxjbucu/morp_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-bftxqgwxlrudkmgoxtlnhxpuaqkq/morp_Prefix.pch.gch morp_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s388868272.275486
-e388868276.702488
-r1
-xProcessPCH
-x/var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-bftxqgwxlrudkmgoxtlnhxpuaqkq/morp_Prefix.pch.gch
-xmorp_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile morp_Prefix.pch388868272#388868276#0(0"0(0#0#41"/Users/kevin/Desktop/morp/morp_Prefix.pch546928#1169"    cd /Users/kevin/Desktop/morp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-generated-files.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-own-target-headers.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-all-target-headers.hmap -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-project-headers.hmap -F/Users/kevin/Desktop/morp/build/Debug -I/Users/kevin/Desktop/morp/build/Debug/include -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources/x86_64 -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources -c /Users/kevin/Desktop/morp/morp_Prefix.pch -o /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-bftxqgwxlrudkmgoxtlnhxpuaqkq/morp_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-chtrztdroeodbnasqpaflyvdieyf/morp_Prefix.pch.gch morp_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-s388868215.009136
-e388868221.533667
-r1
-xProcessPCH
-x/var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-chtrztdroeodbnasqpaflyvdieyf/morp_Prefix.pch.gch
-xmorp_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile morp_Prefix.pch388868215#388868221#0(0"0(0#0#41"/Users/kevin/Desktop/morp/morp_Prefix.pch24720568#1160"    cd /Users/kevin/Desktop/morp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-generated-files.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-own-target-headers.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-all-target-headers.hmap -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-project-headers.hmap -F/Users/kevin/Desktop/morp/build/Debug -I/Users/kevin/Desktop/morp/build/Debug/include -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources/ppc -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources -c /Users/kevin/Desktop/morp/morp_Prefix.pch -o /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-chtrztdroeodbnasqpaflyvdieyf/morp_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-fupmjufxbgwxfxfdrlhducggnfed/morp_Prefix.pch.gch morp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s388882193.197268
-e388882199.596369
-r1
-xProcessPCH
-x/var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-fupmjufxbgwxfxfdrlhducggnfed/morp_Prefix.pch.gch
-xmorp_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile morp_Prefix.pch388882193#388882199#0(0"0(0#0#41"/Users/kevin/Desktop/morp/morp_Prefix.pch546928#1193"    cd /Users/kevin/Desktop/morp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-generated-files.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-own-target-headers.hmap -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-all-target-headers.hmap -iquote /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/morp-project-headers.hmap -F/Users/kevin/Desktop/morp/build/Debug -F/Users/kevin/Desktop/morp -I/Users/kevin/Desktop/morp/build/Debug/include -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources/i386 -I/Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/DerivedSources -c /Users/kevin/Desktop/morp/morp_Prefix.pch -o /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-fupmjufxbgwxfxfdrlhducggnfed/morp_Prefix.pch.gch0#
-
-CTouch /Users/kevin/Desktop/morp/build/Debug/morp.app
-s388888515.340919
-e388888515.563267
-r1
-xTouch
-x/Users/kevin/Desktop/morp/build/Debug/morp.app
-lSLF07#2@52"Touch /Users/kevin/Desktop/morp/build/Debug/morp.app388888515#388888515#0(0"0(0#0#0"546928#102"    cd /Users/kevin/Desktop/morp    /usr/bin/touch -c /Users/kevin/Desktop/morp/build/Debug/morp.app0#
-
