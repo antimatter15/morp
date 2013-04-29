@@ -15,16 +15,20 @@
 
 - (void)displayPicture:(id) sender {
 	NSLog(@"pooper scoop");
+	// so we have to disable the screensaver if it's up
+	// and since i have no idea what else you can do, lets defer
+	// to the painfully obvious and read an appropriate xkcd
+	// http://xkcd.com/196
+	
 	CGEventRef ourEvent = CGEventCreate(NULL);
 	CGPoint point = CGEventGetLocation(ourEvent);
 	point.x += 1;
 	point.y += 1;
+	//now that we's got da mouse pos and shifted it, lets push it back
 	CGEventRef event = CGEventCreateMouseEvent(CGEventSourceCreate(kCGEventSourceStateHIDSystemState), kCGEventMouseMoved, point, kCGMouseButtonLeft);
 	CGEventPost(kCGHIDEventTap, event);
 	CFRelease(event);
-	//CGWarpMouseCursorPosition(point);
-	//CGEventCreateMouseEvent(NULL, CGWarpMouseCursorPosition(<#CGPoint newCursorPosition#>), <#CGPoint mouseCursorPosition#>, <#CGMouseButton mouseButton#>)
-	//CGPostMouseEvent(point, <#boolean_t updateMouseCursorPosition#>, <#CGButtonCount buttonCount#>, <#boolean_t mouseButtonDown#>)
+	
 	UpdateSystemActivity(OverallAct);
 	//IOPMAssertionID assertionID;
 	//IOReturn success = IOPMAssertionCreate(kIOPMAssertionTypeNoDisplaySleep, kIOPMAssertionLevelOn, &assertionID);

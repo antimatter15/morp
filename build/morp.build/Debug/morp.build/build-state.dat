@@ -1,7 +1,7 @@
 Tmorp
 v7
 r0
-t388888515.563324
+t388889585.243771
 cCheck dependencies
 cProcessInfoPlistFile /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Info.plist morp-Info.plist
 cCopyStringsFile /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -225,7 +225,7 @@ s1035
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies388888503#388888503#0(0"0(0#1#0"546928#0"0#
+lSLF07#2@18"Check dependencies388889585#388889585#0(0"0(0#1#0"546928#0"0#
 
 CCompileC build/morp.build/Debug/morp.build/Objects-normal/i386/main.o /Users/kevin/Desktop/morp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s388882199.596727

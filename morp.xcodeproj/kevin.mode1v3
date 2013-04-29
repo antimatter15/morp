@@ -299,7 +299,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-34 52 1024 687 0 0 1024 746 </string>
+						<string>-97 56 1024 687 0 0 1024 746 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>0AA3A651172DF7B800965927</string>
+										<string>0AA3A654172DFCCB00965927</string>
 										<key>history</key>
 										<array>
 											<string>0AA3A4E9172DACA100965927</string>
@@ -351,7 +351,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {816, 460}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-34 52 1024 687 0 0 1024 746 </string>
+								<string>-97 56 1024 687 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -371,7 +371,7 @@
 								<key>Frame</key>
 								<string>{{0, 465}, {816, 181}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-34 52 1024 687 0 0 1024 746 </string>
+								<string>-97 56 1024 687 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -535,6 +535,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>0AA3A655172DFCCB00965927</string>
 		<string>0AA3A4BA172DA74600965927</string>
 		<string>0AA3A4BB172DA74600965927</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -543,7 +544,7 @@
 		<string>/Users/kevin/Desktop/morp/morp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-34 52 1024 687 0 0 1024 746 </string>
+	<string>-97 56 1024 687 0 0 1024 746 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
