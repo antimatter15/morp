@@ -1,0 +1,17 @@
+4f990417ecf348cd8c96148c345d3087 c2d78299c6e9f3f9af712f600acf239e ffffffffffffffffffffffffffffffff 102 /Users/kevin/Desktop/morp/build/Debug/morp.app
+da51df781fed5da81a1a0a02203b715a 689eed32678d0f3474644e028b5ab6dc ffffffffffffffffffffffffffffffff 18820 /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/MacOS/morp
+289575ff33eeec3b9556a1ecc0c37515 7de249500c7efe1981817625178971bf ffffffffffffffffffffffffffffffff 20472 /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/i386/morpAppDelegate.o
+289575ff28de91879556a1ecc0c314fb a7b3962808ca6ec59b9b7c2737b2c405 ffffffffffffffffffffffffffffffff 4828 /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/i386/main.o
+0000000011b9c4a9000000000000016e 289575ff28de7e029556a1ecc0c31485 ffffffffffffffffffffffffffffffff 38311916 /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-fupmjufxbgwxfxfdrlhducggnfed/morp_Prefix.pch.gch
+00000000000000000000000000000000 cb982b69426b7ec5495221937129921b ffffffffffffffffffffffffffffffff 273208 /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/dog.jpg
+00000000517d83ac000000000002caa8 65392bb1e8913178e11b7d6ee4c904e5 ffffffffffffffffffffffffffffffff 35251 /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/English.lproj/MainMenu.nib
+00000000517d6ec1000000000000002d 53f736853e69b8814aa10c710adeab7a ffffffffffffffffffffffffffffffff 92 /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 2122c6c0a251fc2472783a988672f0da ffffffffffffffffffffffffffffffff 8 /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/PkgInfo
+00000000000000000000000000000000 2122c6c0a251fc2472783a988672f0da ffffffffffffffffffffffffffffffff 910 /Users/kevin/Desktop/morp/build/Debug/morp.app/Contents/Info.plist
+0000000011b9c4a9000000000000016e 950aabcd61d997eb3c8ed633334487cb ffffffffffffffffffffffffffffffff 38311916 /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-asxoagqsmtsypcfuwzmggqxjbucu/morp_Prefix.pch.gch
+27946fad7cb37018f92a636d4cfab9dd 68e5aafee0ffd30080323a4262398b5b ffffffffffffffffffffffffffffffff 21396 /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/x86_64/morpAppDelegate.o
+27946fad2dce0107f92a636d4cfab978 155e356ba3485ea2c91d774ac0466cc8 ffffffffffffffffffffffffffffffff 4960 /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/x86_64/main.o
+0000000011b9c4a9000000000000016e 27946fad2dce0107f92a636d4cfab900 ffffffffffffffffffffffffffffffff 36497360 /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-bftxqgwxlrudkmgoxtlnhxpuaqkq/morp_Prefix.pch.gch
+83a2c06678a808465396dc8b94b6803f 98b7fa32c2e6369e0d1054dc7fc84515 ffffffffffffffffffffffffffffffff 15732 /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/ppc/morpAppDelegate.o
+83a2c06629d579595396dc8b94b6809a 71b007c8d28adfab538b00a06fe4c1c4 ffffffffffffffffffffffffffffffff 4964 /Users/kevin/Desktop/morp/build/morp.build/Debug/morp.build/Objects-normal/ppc/main.o
+0000000011b9c4a9000000000000016e 83a2c06629d579595396dc8b94b680e2 ffffffffffffffffffffffffffffffff 36230952 /var/folders/9u/9uhUYpcRGeWsfm52F2nJnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/morp_Prefix-chtrztdroeodbnasqpaflyvdieyf/morp_Prefix.pch.gch
