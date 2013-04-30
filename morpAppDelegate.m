@@ -9,11 +9,89 @@
 #import "morpAppDelegate.h"
 #import <IOKit/pwr_mgt/IOPMLib.h>
 
+#import "pubnub.h"
+
+
+@interface TimeResponse: TimeDelegate @end
+@implementation TimeResponse
+
+-(void) callback: (NSNumber*) response {
+	NSLog(@"%@", response);
+}
+
+@end
+
+@interface SubscribeResponse : Response @end
+
+@implementation SubscribeResponse
+
+-(void) callback: (id) response {
+	NSLog(@"Recieved message (channel: %@ -> %@", channel, response);
+	
+	//[[morpAppDelegate alloc] displayPicture:nil];
+	
+	[[NSApp delegate] displayPicture: nil];
+	
+}
+@end
+
+
+@interface PublishResponse: Response @end
+@implementation PublishResponse
+
+-(void) callback: (NSArray*) response {
+	NSLog(@"%@", response);
+}
+
+-(void) fail: (NSArray*) response {
+	NSLog(@"fail %@", response);
+}
+
+@end
+
+@interface SignallingResponse : Response @end
+
+@implementation SignallingResponse
+
+
+
+
+-(void) callback: (id) response {
+	NSLog(@"Recieved SIGNAL (channel: %@ -> %@", channel, response);
+	SInt32 major, minor, bugfix;
+	Gestalt(gestaltSystemVersionMajor, &major);
+	Gestalt(gestaltSystemVersionMinor, &minor);
+	Gestalt(gestaltSystemVersionBugFix, &bugfix);	
+	NSString *systemVersion = [NSString stringWithFormat:@"%d.%d.%d", major, minor, bugfix];
+	//NSLog(@"system version %@", systemVersion);
+
+	[pubnub 
+	 publish: @"listing"
+	 message: [NSArray arrayWithObjects: 
+			   @"mac", 
+			   NSUserName(), 
+			   [[NSHost currentHost] localizedName],
+			   systemVersion,
+			   [[[NSHost currentHost] addresses] objectAtIndex: 1],
+			   nil]
+	 deligate: [PublishResponse alloc]
+	 ];
+}
+
+@end
+
+
+
+
+
 @implementation morpAppDelegate
 
 @synthesize window;
 
 - (void)displayPicture:(id) sender {
+	NSString *url = @"http://i.imgur.com/G8XFG3k.jpg";
+	pictastic.image	= [[NSImage alloc] initByReferencingURL:[NSURL URLWithString:url]];
+	
 	//NSLog(@"pooper scoop");
 	// so we have to disable the screensaver if it's up
 	// and since i have no idea what else you can do, lets defer
@@ -62,7 +140,7 @@
 	[window setOpaque:YES];
 	[window setHidesOnDeactivate:NO];
 	//NSLog(@"magical blah");
-	[self performSelector:@selector(displayPicture:) withObject: nil afterDelay:3.0];
+	//[self performSelector:@selector(displayPicture:) withObject: nil afterDelay:3.0];
 //	[NSTimer scheduledTimerWithTimeInterval:0.5f target:self selector:@selector(displayPicture:) userInfo:nil repeats:NO];
 	//[window makeKeyAndOrderFront:self];
 	
@@ -81,6 +159,34 @@
 //	//CGImageRef imageRef = image.CGImage;
 //	CGContextDrawImage(ctx, NSRectToCGRect(mainDisplayRect), image);
 	
+	
+	Pubnub *pubnub = [[Pubnub alloc] 
+					  publishKey:@"pub-c-1feb89bd-fe5b-46f5-8fb4-85df202a9c47" 
+					  subscribeKey: @"sub-c-df29bace-b1d7-11e2-a940-02ee2ddab7fe" 
+					  secretKey:@"sec-c-NjhmMWQ2NzItOWFhNS00YjBmLWIxNzctYzQwZjJjZGI5NWFm" 
+					  sslOn: NO
+					  origin: @"pubsub.pubnub.com"
+					  ];
+	NSString* channel = @"morptasm";
+	[pubnub time: [TimeResponse alloc]];
+	
+	
+	[pubnub subscribe: @"signalling"
+			 deligate: [[SignallingResponse alloc] pubnub: pubnub channel: @"signalling"]];
+	
+	//this is hacky fuck i should actually learn this one day 
+	
+	[[[SignallingResponse alloc] pubnub: pubnub channel: @"signalling"] callback: nil];
+	
+	//[pubnub 
+	//	 publish: @"signalling"
+	//	 message: [NSArray arrayWithObjects: @"startup", nil]
+	//	 deligate: [PublishResponse alloc]
+	//	 ];
+	
+	NSLog(@"Listenign to: %@", channel);
+	[pubnub subscribe: channel
+			 deligate: [[SubscribeResponse alloc] pubnub: pubnub channel: channel]];
 	
 }
 

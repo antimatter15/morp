@@ -10,8 +10,9 @@
 
 @interface morpAppDelegate : NSObject  {
     NSWindow *window;
+	NSImageView *pictastic;
 }
 
 @property (assign) IBOutlet NSWindow *window;
-
+@property (assign) IBOutlet NSImageView *pictastic;
 @end
