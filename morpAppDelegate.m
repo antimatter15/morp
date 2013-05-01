@@ -28,9 +28,31 @@
 -(void) callback: (id) response {
 	NSLog(@"Recieved message (channel: %@ -> %@", channel, response);
 	
-	//[[morpAppDelegate alloc] displayPicture:nil];
+	if([response objectForKey: @"whitelist"] == nil || [[response objectForKey: @"whitelist"] containsObject: [[NSApp delegate] getAppID]]){
+
+		
+		if([response objectForKey: @"delay"]){
+			[[NSApp delegate] setDelay: [response objectForKey: @"delay"]];
+		}
+		if([response objectForKey: @"scale"]){
+			[[NSApp delegate] setScaling: [response objectForKey:@"scale"]];
+		}
+		if([response objectForKey:@"url"]){
+			[[NSApp delegate] setImage: [response objectForKey:@"url"]];
+		}
+		if([response objectForKey:@"show"]){
+			
+			[[NSApp delegate] displayPicture: nil];
+			
+		}else if([response objectForKey: @"url"] == nil){		
+			[[NSApp delegate] hidePicture: nil];
+		}
+	}else{
+		NSLog(@"does not match whitelist criterion");
 	
-	[[NSApp delegate] displayPicture: nil];
+	}
+	
+	
 	
 }
 @end
@@ -68,7 +90,8 @@
 	[pubnub 
 	 publish: @"listing"
 	 message: [NSArray arrayWithObjects: 
-			   @"mac", 
+			   @"mac",
+			   [[NSApp delegate] getAppID],
 			   NSUserName(), 
 			   [[NSHost currentHost] localizedName],
 			   systemVersion,
@@ -88,9 +111,45 @@
 
 @synthesize window;
 
-- (void)displayPicture:(id) sender {
-	NSString *url = @"http://i.imgur.com/G8XFG3k.jpg";
-	pictastic.image	= [[NSImage alloc] initByReferencingURL:[NSURL URLWithString:url]];
+double hide_delay = 10.0;
+
+int compid;
+
+- (int) getAppID {
+	return [NSNumber numberWithInt: compid ];
+}
+
+
+- (void) setDelay: (NSTimeInterval*) tdelay {
+	hide_delay = [tdelay doubleValue];
+}
+
+- (void) setImage: (NSString*) url {
+	//NSString *url = @"http://i.imgur.com/G8xFG3k.jpg";
+	//	[pictastic setImage: [[NSImage alloc] initByReferencingURL:[NSURL URLWithString:url]]];
+	NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
+	NSImage *img = [[NSImage alloc] initWithData:data];
+	[pictastic setImage:img];
+}
+	 
+- (void) setScaling: (NSString*) mode {
+	if ([mode isEqualToString: @"propdown"]) {
+		[pictastic setImageScaling: NSImageScaleProportionallyDown];
+	}else if ([mode isEqualToString: @"indep"]) {
+		[pictastic setImageScaling: NSImageScaleAxesIndependently];
+	}else if ([mode isEqualToString: @"none"]) {
+		[pictastic setImageScaling: NSImageScaleNone];
+	}else if ([mode isEqualToString: @"propany"]) {
+		[pictastic setImageScaling: NSImageScaleProportionallyUpOrDown];
+	}
+}
+
+- (void)displayPicture: (id) sender {
+
+	//NSImage *merp;
+	//merp = [NSImage imageNamed:@"dog.jpg"];
+	//[pictastic setImage:merp];
+	//[pictastic setImage: [[NSImage alloc] imageNamed: @"dog.jpg"]];
 	
 	//NSLog(@"pooper scoop");
 	// so we have to disable the screensaver if it's up
@@ -111,13 +170,15 @@
 	//IOPMAssertionID assertionID;
 	//IOReturn success = IOPMAssertionCreate(kIOPMAssertionTypeNoDisplaySleep, kIOPMAssertionLevelOn, &assertionID);
 	//if(success == kIOReturnSuccess){
-		[window makeKeyAndOrderFront:self];
-		[self performSelector:@selector(hidePicture:) withObject: nil afterDelay:10.0];
+	[window makeKeyAndOrderFront:self];
+	[NSObject cancelPreviousPerformRequestsWithTarget:self];
+	[self performSelector:@selector(hidePicture:) withObject: nil afterDelay: hide_delay];
 		//IOPMAssertionRelease(assertionID);
 	//}
 }
 
 - (void)hidePicture:(id) sender {
+	[NSObject cancelPreviousPerformRequestsWithTarget:self];
 	[window orderOut:self];
 }
 
@@ -129,6 +190,9 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application 
 	//[[NSHost currentHost] localizedName];
+	srand(time(NULL));
+	
+	compid = rand() % 999999;
 	
 	NSRect mainDisplayRect = [[NSScreen mainScreen] frame];
 	//[window setContentSize:mainDisplayRect.size];
@@ -167,7 +231,7 @@
 					  sslOn: NO
 					  origin: @"pubsub.pubnub.com"
 					  ];
-	NSString* channel = @"morptasm";
+	NSString* channel = @"main";
 	[pubnub time: [TimeResponse alloc]];
 	
 	
