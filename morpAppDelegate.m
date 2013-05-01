@@ -228,7 +228,7 @@ int compid;
 					  publishKey:@"pub-c-1feb89bd-fe5b-46f5-8fb4-85df202a9c47" 
 					  subscribeKey: @"sub-c-df29bace-b1d7-11e2-a940-02ee2ddab7fe" 
 					  secretKey:@"sec-c-NjhmMWQ2NzItOWFhNS00YjBmLWIxNzctYzQwZjJjZGI5NWFm" 
-					  sslOn: NO
+					  sslOn: YES
 					  origin: @"pubsub.pubnub.com"
 					  ];
 	NSString* channel = @"main";
