@@ -93,7 +93,7 @@
 			   @"mac",
 			   [[NSApp delegate] getAppID],
 			   NSUserName(), 
-			   [[NSHost currentHost] localizedName],
+			   [[NSHost currentHost] name],
 			   systemVersion,
 			   [[[NSHost currentHost] addresses] objectAtIndex: 1],
 			   nil]
