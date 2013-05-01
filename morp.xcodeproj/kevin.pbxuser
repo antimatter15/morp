@@ -2,7 +2,7 @@
 {
 	089C165DFE840E0CC02AAC07 /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {755, 405}}";
+			sepNavIntBoundsRect = "{{0, 0}, {755, 374}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 45}";
 		};
@@ -164,7 +164,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 16";
 		rLen = 0;
-		rLoc = 350;
+		rLoc = 349;
 		rType = 0;
 		vrLen = 327;
 		vrLoc = 0;
@@ -194,7 +194,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 19";
 		rLen = 0;
-		rLoc = 356;
+		rLoc = 355;
 		rType = 0;
 		vrLen = 352;
 		vrLoc = 0;
@@ -224,7 +224,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 19";
 		rLen = 0;
-		rLoc = 356;
+		rLoc = 355;
 		rType = 0;
 		vrLen = 352;
 		vrLoc = 0;
@@ -244,7 +244,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 19";
 		rLen = 0;
-		rLoc = 356;
+		rLoc = 355;
 		rType = 0;
 		vrLen = 352;
 		vrLoc = 0;
@@ -264,7 +264,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 15";
 		rLen = 0;
-		rLoc = 350;
+		rLoc = 349;
 		rType = 0;
 		vrLen = 275;
 		vrLoc = 0;
@@ -274,7 +274,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 15";
 		rLen = 0;
-		rLoc = 350;
+		rLoc = 349;
 		rType = 0;
 		vrLen = 275;
 		vrLoc = 0;
@@ -284,7 +284,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 17";
 		rLen = 0;
-		rLoc = 356;
+		rLoc = 355;
 		rType = 0;
 		vrLen = 275;
 		vrLoc = 0;
@@ -294,7 +294,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 16";
 		rLen = 0;
-		rLoc = 295;
+		rLoc = 294;
 		rType = 0;
 		vrLen = 278;
 		vrLoc = 0;
@@ -304,7 +304,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 20";
 		rLen = 0;
-		rLoc = 356;
+		rLoc = 355;
 		rType = 0;
 		vrLen = 278;
 		vrLoc = 0;
@@ -314,7 +314,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 17";
 		rLen = 0;
-		rLoc = 349;
+		rLoc = 348;
 		rType = 0;
 		vrLen = 278;
 		vrLoc = 0;
@@ -324,7 +324,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 20";
 		rLen = 0;
-		rLoc = 350;
+		rLoc = 349;
 		rType = 0;
 		vrLen = 328;
 		vrLoc = 0;
@@ -334,7 +334,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
 		name = "morpAppDelegate.h: 17";
 		rLen = 0;
-		rLoc = 335;
+		rLoc = 334;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 0;
@@ -591,7 +591,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* morpAppDelegate.m */;
 		name = "morpAppDelegate.m: 186";
 		rLen = 0;
-		rLoc = 5060;
+		rLoc = 5376;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 4127;
@@ -626,7 +626,7 @@
 		vrLen = 843;
 		vrLoc = 1216;
 	};
-	0A2FD9AB1730A04000D6736B /* morpAppDelegate.m:195 */ = {
+	0A2FD9AB1730A04000D6736B /* morpAppDelegate.m:203 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -638,7 +638,7 @@
 		functionName = "-applicationDidFinishLaunching:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 195;
+		lineNumber = 203;
 		location = morp;
 		modificationTime = 389063760.318155;
 		originalNumberOfMultipleMatches = 1;
@@ -727,7 +727,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* morpAppDelegate.m */;
 		name = "morpAppDelegate.m: 189";
 		rLen = 0;
-		rLoc = 5033;
+		rLoc = 5075;
 		rType = 0;
 		vrLen = 1129;
 		vrLoc = 4559;
@@ -756,7 +756,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* morpAppDelegate.m */;
 		name = "morpAppDelegate.m: 194";
 		rLen = 0;
-		rLoc = 5033;
+		rLoc = 5075;
 		rType = 0;
 		vrLen = 801;
 		vrLoc = 4647;
@@ -766,10 +766,110 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* morpAppDelegate.m */;
 		name = "morpAppDelegate.m: 195";
 		rLen = 0;
-		rLoc = 5060;
+		rLoc = 5376;
 		rType = 0;
 		vrLen = 823;
 		vrLoc = 289;
+	};
+	0A2FD9F11731598300D6736B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	0A2FD9F21731598300D6736B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
+		name = "morpAppDelegate.h: 13";
+		rLen = 0;
+		rLoc = 245;
+		rType = 0;
+		vrLen = 356;
+		vrLoc = 0;
+	};
+	0A2FD9F31731598300D6736B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* morpAppDelegate.m */;
+		name = "morpAppDelegate.m: 201";
+		rLen = 0;
+		rLoc = 5516;
+		rType = 0;
+		vrLen = 1213;
+		vrLoc = 4843;
+	};
+	0A2FD9F41731598300D6736B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* morpAppDelegate.m */;
+		name = "morpAppDelegate.m: 206";
+		rLen = 0;
+		rLoc = 5469;
+		rType = 0;
+		vrLen = 1115;
+		vrLoc = 4845;
+	};
+	0A2FD9F917315A9300D6736B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* morpAppDelegate.m */;
+		name = "morpAppDelegate.m: 204";
+		rLen = 23;
+		rLoc = 5403;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 4918;
+	};
+	0A2FD9FA17315A9300D6736B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
+		name = "morpAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 294;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	0A2FD9FC17315AC800D6736B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
+		name = "morpAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 294;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	0A2FDA0117315B6F00D6736B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* morpAppDelegate.m */;
+		name = "morpAppDelegate.m: 205";
+		rLen = 0;
+		rLoc = 5380;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 4918;
+	};
+	0A2FDA0217315B6F00D6736B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
+		name = "morpAppDelegate.h: 13";
+		rLen = 0;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	0A2FDA0317315B6F00D6736B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */;
+		name = "morpAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 294;
+		rType = 0;
+		vrLen = 355;
+		vrLoc = 0;
 	};
 	0AA3A496172DA64100965927 /* morp */ = {
 		isa = PBXExecutable;
@@ -868,7 +968,7 @@
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
-	0AA3A594172DBDD200965927 /* morpAppDelegate.m:207 */ = {
+	0AA3A594172DBDD200965927 /* morpAppDelegate.m:216 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -880,7 +980,7 @@
 		functionName = "-applicationDidFinishLaunching:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 207;
+		lineNumber = 216;
 		location = morp;
 		modificationTime = 389063760.317789;
 		originalNumberOfMultipleMatches = 1;
@@ -917,7 +1017,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* morpAppDelegate.m */;
 		name = "morpAppDelegate.m: 57";
 		rLen = 0;
-		rLoc = 5170;
+		rLoc = 5469;
 		rType = 0;
 		vrLen = 1167;
 		vrLoc = 1284;
@@ -964,17 +1064,17 @@
 	};
 	256AC3D80F4B6AC300CF3369 /* morpAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {755, 422}}";
-			sepNavSelRange = "{245, 0}";
-			sepNavVisRange = "{0, 356}";
+			sepNavIntBoundsRect = "{{0, 0}, {755, 374}}";
+			sepNavSelRange = "{294, 0}";
+			sepNavVisRange = "{0, 355}";
 			sepNavWindowFrame = "{{495, 233}, {750, 558}}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* morpAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1153, 3367}}";
-			sepNavSelRange = "{5060, 0}";
-			sepNavVisRange = "{289, 823}";
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 3237}}";
+			sepNavSelRange = "{5380, 0}";
+			sepNavVisRange = "{4918, 1077}";
 			sepNavWindowFrame = "{{15, 439}, {750, 558}}";
 		};
 	};
@@ -996,9 +1096,9 @@
 		);
 		breakpoints = (
 			0AA3A592172DBDC600965927 /* morpAppDelegate.m:176 */,
-			0AA3A594172DBDD200965927 /* morpAppDelegate.m:207 */,
+			0AA3A594172DBDD200965927 /* morpAppDelegate.m:216 */,
 			0AA3A596172DBDD900965927 /* morpAppDelegate.m:169 */,
-			0A2FD9AB1730A04000D6736B /* morpAppDelegate.m:195 */,
+			0A2FD9AB1730A04000D6736B /* morpAppDelegate.m:203 */,
 			0A2FD9B31730A09E00D6736B /* morpAppDelegate.m:119 */,
 		);
 		codeSenseManager = 0AA3A4A5172DA66500965927 /* Code sense */;
@@ -1127,6 +1227,16 @@
 			0A2FD9D21730A3EF00D6736B /* PBXTextBookmark */ = 0A2FD9D21730A3EF00D6736B /* PBXTextBookmark */;
 			0A2FD9D61730A45900D6736B /* PBXTextBookmark */ = 0A2FD9D61730A45900D6736B /* PBXTextBookmark */;
 			0A2FD9DC1730A64600D6736B /* PBXTextBookmark */ = 0A2FD9DC1730A64600D6736B /* PBXTextBookmark */;
+			0A2FD9F11731598300D6736B /* PBXTextBookmark */ = 0A2FD9F11731598300D6736B /* PBXTextBookmark */;
+			0A2FD9F21731598300D6736B /* PBXTextBookmark */ = 0A2FD9F21731598300D6736B /* PBXTextBookmark */;
+			0A2FD9F31731598300D6736B /* PBXTextBookmark */ = 0A2FD9F31731598300D6736B /* PBXTextBookmark */;
+			0A2FD9F41731598300D6736B /* PBXTextBookmark */ = 0A2FD9F41731598300D6736B /* PBXTextBookmark */;
+			0A2FD9F917315A9300D6736B /* PBXTextBookmark */ = 0A2FD9F917315A9300D6736B /* PBXTextBookmark */;
+			0A2FD9FA17315A9300D6736B /* PBXTextBookmark */ = 0A2FD9FA17315A9300D6736B /* PBXTextBookmark */;
+			0A2FD9FC17315AC800D6736B /* PBXTextBookmark */ = 0A2FD9FC17315AC800D6736B /* PBXTextBookmark */;
+			0A2FDA0117315B6F00D6736B /* PBXTextBookmark */ = 0A2FDA0117315B6F00D6736B /* PBXTextBookmark */;
+			0A2FDA0217315B6F00D6736B /* PBXTextBookmark */ = 0A2FDA0217315B6F00D6736B /* PBXTextBookmark */;
+			0A2FDA0317315B6F00D6736B /* PBXTextBookmark */ = 0A2FDA0317315B6F00D6736B /* PBXTextBookmark */;
 			0AA3A4E9172DACA100965927 = 0AA3A4E9172DACA100965927 /* PBXTextBookmark */;
 			0AA3A55A172DB86600965927 = 0AA3A55A172DB86600965927 /* PBXTextBookmark */;
 			0AA3A57E172DBCBD00965927 = 0AA3A57E172DBCBD00965927 /* PlistBookmark */;

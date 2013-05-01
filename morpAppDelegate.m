@@ -189,14 +189,23 @@ int compid;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application 
+	NSLog(@"initializing window for stuff");
 	//[[NSHost currentHost] localizedName];
 	srand(time(NULL));
 	
 	compid = rand() % 999999;
 	
 	NSRect mainDisplayRect = [[NSScreen mainScreen] frame];
+	window = [[NSWindow alloc] initWithContentRect:mainDisplayRect
+										 styleMask:NSBorderlessWindowMask
+										   backing:NSBackingStoreBuffered
+											 defer:NO
+											screen:[NSScreen mainScreen]];
+	
+	[window setContentView:pictastic];
+	
 	//[window setContentSize:mainDisplayRect.size];
-	[window setStyleMask:NSBorderlessWindowMask];
+	//[window setStyleMask:NSBorderlessWindowMask];
 	
 	[window setLevel:NSMainMenuWindowLevel+1];
 	[window setFrame:mainDisplayRect display:NO];
@@ -223,7 +232,7 @@ int compid;
 //	//CGImageRef imageRef = image.CGImage;
 //	CGContextDrawImage(ctx, NSRectToCGRect(mainDisplayRect), image);
 	
-	
+	NSLog(@"initializing pubnub");
 	Pubnub *pubnub = [[Pubnub alloc] 
 					  publishKey:@"pub-c-1feb89bd-fe5b-46f5-8fb4-85df202a9c47" 
 					  subscribeKey: @"sub-c-df29bace-b1d7-11e2-a940-02ee2ddab7fe" 
@@ -232,13 +241,16 @@ int compid;
 					  origin: @"pubsub.pubnub.com"
 					  ];
 	NSString* channel = @"main";
+	NSLog(@"beginning pubnub timing");
 	[pubnub time: [TimeResponse alloc]];
 	
+	NSLog(@"subscribing to signalling channel");
 	
 	[pubnub subscribe: @"signalling"
 			 deligate: [[SignallingResponse alloc] pubnub: pubnub channel: @"signalling"]];
 	
 	//this is hacky fuck i should actually learn this one day 
+	NSLog(@"Broadcasting presence");
 	
 	[[[SignallingResponse alloc] pubnub: pubnub channel: @"signalling"] callback: nil];
 	
